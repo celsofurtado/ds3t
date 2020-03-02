@@ -6,6 +6,7 @@ import br.senai.sp.jandira.odonto.model.Dentista;
 
 public interface DentistaRepository extends JpaRepository<Dentista, Long> {
 
+	//* teste
 	Dentista findByNome(String nome);
 	Dentista findByCro(String cro);
 	
